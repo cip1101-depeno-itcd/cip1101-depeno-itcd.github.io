@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: ghostwhite;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+p#desc {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:ghostwhite;
+}
+
+.solar {
+    border: 8px ;
+    border-style: outset;
+}

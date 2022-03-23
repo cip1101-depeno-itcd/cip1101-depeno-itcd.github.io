@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="newSolar">
+    <meta charset="utf-8">
+    <title>Solar System</title>
+    <script language="JavaScript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+
+        function dissolveText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+
+</head>
+<body>
+    <link rel="stylesheet" href="solarsystem.css">
+    <h1>Solar System</h1>
+    <div align="center">
+    <img src="../IMAGES/solar_system.jpg" class="solar" usemap="#solarSystem">
+    <map name="solarSystem">
+        <area shape="rect" coords="50, 250, 134, 312" href="../HTML/Earth.html" onMouseOver="writeText('The Earth\'s Molten Iron Core Creates a Magnetic Field');" onMouseout="dissolveText('');" />
+
+        <area shape="circle" coords="294,72,23" href="../HTML/Uranus.html" onMouseOver="writeText('Uranus holds the record for the coldest temperature ever measured in the solar system.');" onMouseout="dissolveText('');" />
+
+        <area shape="poly" coords="202, 375, 210, 378, 216, 384, 220, 394, 217, 402, 212, 407, 203, 412, 196, 412, 189, 408, 183, 402, 180, 395, 182, 386, 186, 376, 191, 376, 197, 375"
+        href="Mercury.html" onMouseOver="writeText('Mercury zips around the sun in only 88 days.');" onMouseout="dissolveText('');" />
+    </map>
+    </div>
+
+    <p id="desc"> </p>
+</body>
+
+</html>
