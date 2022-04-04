@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+</head>
+<body>
+    <link rel="stylesheet" href="PlaceVisit.css">
+
+    <base target="newSolar">
+    <meta charset="utf-8">
+    <title>PLACES TO VISIT</title>
+    <script language="JavaScript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+
+        function dissolveText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+    
+    <p><a href="../LANDINGPAGE.html" class="back">Back to Homepage</a></p>
+    <h1>PLACES TO VISIT</h1>
+    <div align="center">
+    <img src="../PLACES/world.jpg" class="continents" usemap="#worldmap">
+    <map name="worldmap">
+        <area shape="circle" coords="148, 92, 131" href="../PLACES/CONTINENTS/NorthAmerica.html" onMouseOver="writeText('North America covers an area of about 24,709,000 square kilometers (9,540,000 square miles), about 16.5% of the Earth\'s land area and about 4.8% of its total surface.');" onMouseout="dissolveText('');" />
+
+        <area shape="circle" coords="381, 85, 52" href="../PLACES/CONTINENTS/Europe.html" onMouseOver="writeText('Europe covers about 10.18 million km2 (3.93 million sq mi), or 2% of the Earth\'s surface (6.8% of land area), making it the second-smallest continent (using the seven-continent model).');" onMouseout="dissolveText('');" />
+
+        <area shape="circle" coords="344, 390, 73" href="../PLACES/CONTINENTS/Antarctica.html" onMouseOver="writeText('Antarctica has an area of 14,200,000 km2 (5,500,000 sq mi) and most of it is covered by ice, with an average thickness of 1.9 km (1.2 mi).');" onMouseout="dissolveText('');" />
+
+        <area shape="rect" coords="287, 151, 383, 278" href="../PLACES/CONTINENTS/Africa.html" onMouseOver="writeText('Africa at about 30.3 million km2 (11.7 million square miles) including adjacent islands, it covers 6% of Earth\'s total surface area and 20% of its land area.');" onMouseout="dissolveText('');" />
+
+        <area shape="rect" coords="452, 24, 622, 214" href="../PLACES/CONTINENTS/Asia.html" onMouseOver="writeText('Asia covers an area of 44,579,000 square kilometres (17,212,000 sq mi), about 30% of Earth\'s total land area and 8.7% of the Earth\'s total surface area.');" onMouseout="dissolveText('');" />
+
+        <area shape="poly" coords="185, 186, 194, 191, 202, 190, 207, 196, 213, 199, 218, 201, 225, 204, 228, 212, 235, 214, 242, 218, 249, 220, 254, 223, 253, 231, 248, 235, 248, 246, 243, 253, 236, 257, 231, 261, 227, 268, 223, 275, 214, 280, 211, 287, 205, 292, 198, 297, 196, 303, 198, 309, 194, 315, 192, 320, 196, 328, 191, 328, 185, 324, 182, 318, 181, 310, 183, 301, 183, 291, 185, 282, 186, 271, 187, 263, 188, 253, 186, 248, 182, 243, 176, 235, 170, 229, 168, 217, 170, 210, 175, 205, 178, 196, 181, 190"
+        href="../PLACES/CONTINENTS/SouthAmerica.html" onMouseOver="writeText('South America has an area of 17,840,000 square kilometers (6,890,000 sq mi). Its population as of 2018 has been estimated at more than 423 million.');" onMouseout="dissolveText('');" />
+
+        <area shape="poly" coords="586, 324, 590, 241, 596, 248, 602, 255, 606, 263, 605, 275, 603, 282, 598, 287, 592, 288, 584, 288, 578, 281, 570, 276, 561, 274, 553, 277, 544, 279, 538, 282, 535, 277, 534, 271, 532, 265, 534, 259, 536, 252, 542, 250, 548, 274, 551, 243, 555, 239, 58, 237, 562, 240, 568, 235, 574, 234, 577, 235, 576, 242, 581, 245, 585, 242, 585, 236"
+        href="../PLACES/CONTINENTS/Australia.html" onMouseOver="writeText('Australia With an area of 7,617,930 square kilometres (2,941,300 sq mi),');" onMouseout="dissolveText('');" />
+    </map>
+    </div>
+
+    <p id="desc"> </p>
+
+</body>
+
+</html>

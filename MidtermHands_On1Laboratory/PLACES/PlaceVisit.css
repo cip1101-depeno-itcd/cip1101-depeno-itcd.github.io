@@ -1,0 +1,36 @@
+h1{
+    font-size: 140px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #56564C;
+}
+
+p#desc {
+    text-align: center;
+    font-size: 1.5em;
+    color: #F6F5F0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.continents {
+    border: 15px;
+    border-style: outset;
+}
+
+body {
+    color: #F6F5F0;
+    background: #1F1F1E;
+}
+
+.back:link {
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.back:visited {
+    color: #F0E7DA;
+}
+
+.back:hover{
+    background-color: #56564C;
+}
