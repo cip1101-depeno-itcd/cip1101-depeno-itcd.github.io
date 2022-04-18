@@ -1,0 +1,137 @@
+#form {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2.5px solid #BA0001;
+    border-right: 2.5px solid #BA0001;
+    border-bottom: 2.5px solid #BA0001;
+}
+
+#form tr:first-child{
+    border: 1px solid #BA0001;
+    padding: 5px;
+    background-color: #BA0001;
+    color: white;
+    text-align: left;
+}
+
+#form tr:nth-child(6) {
+    border: 1px solid #BA0001;
+    padding: 5px;
+    background-color: #BA0001;
+    color: white;
+}
+
+#form tr:nth-child(21) {
+    border: 1px solid #BA0001;
+    padding: 5px;
+    background-color: #BA0001;
+    color: white;
+}
+
+#form tr:nth-child(20) {
+    color: #BA0001;
+}
+
+.title {
+    color: #BA0001;
+    font-size: 14px;
+    text-align: left;
+}
+
+.information {
+    font-weight: bold;
+}
+
+.subject {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 0;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BA0001;
+}
+
+h2 {
+    font-size: 12px;
+    line-height: 0.3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BA0001;
+}
+
+.FORM {
+    text-align: center;
+    margin-top: -2em;
+    margin-right: 9em;
+}
+
+.number {
+    text-align: center;
+    margin-right: -600px;
+    margin-top: -0.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.number1 {
+    text-align: center;
+    margin-right: -870px;
+    margin-top: -1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.date {
+    text-align: center;
+    margin-right: -650px;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date1 {
+    text-align: center;
+    margin-right: -825px;
+    margin-top: -1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.last {
+    margin-left: 10.5em;
+    font-size: 1.1em;
+    font-family: monospace;
+    line-height: 0.5px;
+}
+
+.last1 {
+    margin-left: 10.5em;
+    font-size: 1.1em;
+    margin-top: 2em;
+    font-family: monospace;
+}
+
+.span {
+    vertical-align: middle;
+}
+
+.reverse {
+    font-size: 20px;
+    line-height: 0;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BA0001;
+    margin-left: 7.5em;
+}
