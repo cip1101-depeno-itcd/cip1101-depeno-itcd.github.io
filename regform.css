@@ -51,6 +51,13 @@
     font-size: 18px;
 }
 
+.total {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    border-top: 2px solid black;    
+}
+
 .logo {
     width: 100px;
     height: 100px;
