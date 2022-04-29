@@ -1,0 +1,126 @@
+body{
+  background-image:url('food.jpg');
+  background-repeat:repeat;
+  background-position:cover;
+}
+
+fieldset {
+    padding: 1em 10em;
+    border: solid 3px #587D71;
+    border-radius: 6px;
+    width: 60%;
+    min-width: 100px;
+    background-color: #B5DDA4;
+    margin: auto;
+  }
+
+  .order fieldset {
+    padding: 1em 10em;
+    border: solid 3px #587D71;
+    border-radius: 6px;
+    width: 40%;
+    min-width: 100px;
+    background-color: #B5DDA4;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#587D71;
+    color:azure;
+}
+
+label {
+    display: block;
+    width: 240px;
+    margin-top: 2em;
+    font-family: "Tahoma";
+  }
+
+textarea {
+    min-height: 8em;
+    min-width: 80%;
+    padding: .5em;
+    border: solid 1px #B5DDA4;
+    border-radius: 4px;
+    box-shadow:0 0 2px 2px #587D71;
+    margin-right:.5em;
+    resize:none;
+  }
+
+  input[type="email"], input[type="text"], input[type="phone"] {
+    width: 100%;
+    padding:15px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border: solid 1px #B5DDA4;
+    box-shadow:0 0 2px 2px #587D71;
+  }
+
+  .checks input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 0.5px;
+    width: 50%;
+    
+  }
+
+  .checks label {
+    display: inline-block;
+    padding-top: .5em;
+  }
+
+  .sauce label {
+    display: inline-block;
+    padding-top: .5em;
+  }
+
+  .burgerr label {
+    display: inline-block;
+    padding-top: .5em;
+  }
+
+  .burgerr img {
+    height: 5em;
+  }
+
+  .checks img {
+    height: 5em;
+  }
+
+  .sauce img {
+    height: 5em;
+  }
+
+  label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+  }
+
+  .buttonHolder { 
+    text-align: center; 
+  }
+
+  input[type="radio"] {
+    margin-left: .5em;
+    margin-right: 0;
+  }
+
+  .sauce label {
+    display: inline-block;
+    padding-top: .5em;
+    margin-top: 0;
+    margin-right: .5em;
+  }
+  .burgerr label {
+    display: inline-block;
+    padding-top: .5em;
+    margin-top: 0;
+    margin-right: .5em;
+  }
+
+  .checks label {
+    display: inline-block ;
+    padding-top: .5em;
+    margin-top: 0;
+  }

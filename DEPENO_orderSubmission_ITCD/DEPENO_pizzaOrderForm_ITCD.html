@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+  <div class="container">
+    <form action="DEPENO_CompleteOrder_ITCD.html" method="GET">
+        <link rel="stylesheet" href="DEPENO_IMAGES_ITCD/DEPENO_pizzaOrderForm_ITCD.css">
+        <fieldset>
+            <h1>Customer Information</h1>
+           <label for="fullname">Full Name:</label><br>
+          <input type="text" name="firstname" id="firstname" placeholder="Enter full name.">
+          
+           <label for="address">Address:</label><br>
+          <input type="text" name="address" id="address" placeholder="Enter your complete address.">
+
+          <label for="contact">Contact Number:</label><br>
+          <input type="phone" name="contact" id="contact" placeholder="Enter your complete contact number.">
+
+          <label for="">Email Address:</label><br>
+          <input type="email" name="email" id="email" placeholder="Enter your complete email address.">
+
+          <label for="message">Description for the Directions:</label><br>
+            <textarea rows="10" cols="50" name="message" id="message" placeholder="Directions."></textarea><br><br>
+        <br>
+  </div>
+</fieldset><br>
+
+<fieldset class="order">
+    <div class="checks">
+            <h1>Orders</h1>  
+                <img src="DEPENO_IMAGES_ITCD/pastaa.png"> 
+                <input type="checkbox" name="pasta" id="pasta">
+                 <label for="pasta">Pasta</label><br>     
+                 <img src="DEPENO_IMAGES_ITCD/burger.png">
+                   <input type="checkbox" name="burger" id="burger">
+                 <label for="burger">Burger</label><br>      
+                 <img src="DEPENO_IMAGES_ITCD/friess.png">
+                   <input type="checkbox" name="fries" id="fries">
+                 <label for="fries">Fries</label><br>
+                 <img src="DEPENO_IMAGES_ITCD/drink.png">
+                   <input type="checkbox" name="drink" id="drink">
+                 <label for="drink">Drinks</label><br>
+    </div>
+    </fieldset><br>
+
+
+    <fieldset class="pasta">
+    <div class="sauce">
+      <h1>Pasta</h1>
+              <img src="DEPENO_IMAGES_ITCD/carbonara.png">
+              <input type="checkbox" name="carbonara" id="carbonara">
+              <label for="carbonara">Carbonara</label>
+              <img src="DEPENO_IMAGES_ITCD/spaghetti.png">
+              <input type="checkbox" name="spaghetti" id="spaghetti">
+              <label for="spaghetti">Spaghetti</label>
+              <img src="DEPENO_IMAGES_ITCD/lasagna.png">
+              <input type="checkbox" name="lasagna" id="lasagna">
+              <label for="lasagna">Lasagna</label>
+              <br><br><br>
+      <h1>Extras</h1>
+              <img src="DEPENO_IMAGES_ITCD/bacon.png">
+              <input type="checkbox" name="bacon" id="bacon">
+              <label for="bacon">Bacon</label>
+              <img src="DEPENO_IMAGES_ITCD/noodles.png">
+              <input type="checkbox" name="noodles" id="noodles">
+              <label for="noodles">Noodles</label>
+              <img src="DEPENO_IMAGES_ITCD/cheese.png">
+              <input type="checkbox" name="cheese" id="cheese">
+              <label for="cheese">Cheese</label>
+    </div><br><br><br>
+    <div class="burgerr">
+      <h1>Burger</h1>
+              <img src="DEPENO_IMAGES_ITCD/singlepatty.png">
+              <input type="checkbox" name="singlepatty" id="singlepatty">
+              <label for="singlepatty">Single Patty</label>
+              <img src="DEPENO_IMAGES_ITCD/burger2.png">
+              <input type="checkbox" name="doublepatty" id="doublepatty">
+              <label for="doublepatty">Double Patty</label>
+              <br><br><br>
+      <h1>Add Ons</h1>
+              <img src="DEPENO_IMAGES_ITCD/bun.png">
+              <input type="checkbox" name="baconn" id="baconn">
+              <label for="baconn">Bacon</label>
+              <img src="DEPENO_IMAGES_ITCD/pickles.png">
+              <input type="checkbox" name="pickles" id="pickles">
+              <label for="pickles">Pickles</label>
+              <img src="DEPENO_IMAGES_ITCD/cheese.png">
+              <input type="checkbox" name="cheeseee" id="cheeseee">
+              <label for="cheeseee">Cheese</label>
+              <br><br><br>
+      <h1>Choice of Bun</h1>
+              <img src="DEPENO_IMAGES_ITCD/bun.png">
+              <input type="radio" name="bun" id="white bun">
+              <label for="white bun">White Bun</label>
+              <img src="DEPENO_IMAGES_ITCD/wheat bun.png">
+              <input type="radio" name="bun" id="wheat bun">
+              <label for="wheat bun">Wheat Bun</label>
+              <br><br><br>
+      <h1>Fries</h1>
+              <img src="DEPENO_IMAGES_ITCD/friesss.jpg">
+              <input type="radio" name="fries" id="small">
+              <label for="small">Small</label>
+              <img src="DEPENO_IMAGES_ITCD/friesss.jpg">
+              <input type="radio" name="fries" id="medium">
+              <label for="medium">Medium</label>
+              <img src="DEPENO_IMAGES_ITCD/friesss.jpg">
+              <input type="radio" name="fries" id="large">
+              <label for="large">Large</label>
+              <br><br><br>
+      <h1>Flavor</h1>
+              <input type="radio" name="flavor" id="cheesee">
+              <label for="cheesee">Cheese</label>
+              <input type="radio" name="flavor" id="sour cream">
+              <label for="sour cream">Sour Cream</label>
+              <input type="radio" name="flavor" id="barbeque">
+              <label for="barbeque">Barbeque</label>
+              <br><br><br>
+      <h1>Drinks</h1>
+              <img src="DEPENO_IMAGES_ITCD/coca cola.jpg">
+              <input type="radio" name="coke" id="coke">
+              <label for="coke">Coke</label>
+              <img src="DEPENO_IMAGES_ITCD/sprite.jpg">
+              <input type="radio" name="coke" id="sprite">
+              <label for="sprite">Sprite</label>
+              <img src="DEPENO_IMAGES_ITCD/root beer.jpg">
+              <input type="radio" name="coke" id="root beer">
+              <label for="root beer">Root Beer</label>
+              <br><br><br>
+      <h1>Size</h1>
+              <input type="radio" name="size" id="smalll">
+              <label for="smalll">Small</label>
+              <input type="radio" name="size" id="mediumm">
+              <label for="mediumm">Medium</label>
+              <input type="radio" name="size" id="largee">
+              <label for="largee">Large</label>
+              <br><br><br>
+      <h1>Delivery</h1>
+              <input type="radio" name="delivery" id="self pick-up">
+              <label for="self pick-up">Self Pick-Up</label>
+              <input type="radio" name="delivery" id="delivery">
+              <label for="delivery">Delivery</label><br><br><br>
+
+              <div class="buttonHolder">
+                <input value="Submit" title="Submit" type="Submit" id="btn_s"> 
+              </div>
+    </div>
+  </fieldset>
